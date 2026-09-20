@@ -2,7 +2,6 @@
 
 namespace Core
 {
-
     std::atomic<bool> SignalHandler::isRunning(true);
 
     void SignalHandler::Initialize()
